@@ -214,3 +214,21 @@ def opt_plots(opt_model):
     plt.subplot(122)
     sns.heatmap(pd.pivot_table(opt,index='max_depth',columns='min_samples_leaf',values='mean_test_score')*100)
     plt.title('ROC_AUC - Validation')
+    
+#===========================================================================================================================================================   
+
+def plotfeatures(model):
+    n_features = data_train.shape[1]
+    plt.figure(figsize=(8,8))
+    plt.barh(range(n_features), model.feature_importances_, align='center') 
+    plt.yticks(np.arange(n_features), data_train.columns.values) 
+    plt.xlabel('Feature importance')
+    plt.ylabel('Feature')
+
+#===========================================================================================================================================================   
+
+def print_metrics(labels, preds):
+    print("Precision Score: {}".format(precision_score(labels, preds)))
+    print("Recall Score: {}".format(recall_score(labels, preds)))
+    print("Accuracy Score: {}".format(accuracy_score(labels, preds)))
+    print("F1 Score: {}".format(f1_score(labels, preds)))
