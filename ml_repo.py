@@ -164,14 +164,13 @@ class Regularisation:
 #===========================================================================================================================================================
 # Classification models
 #===========================================================================================================================================================
-
 from sklearn.metrics import roc_auc_score
 def scores(model,X_train,X_val,y_train,y_val):
     train_prob = model.predict_proba(X_train)[:,1]
     val_prob = model.predict_proba(X_val)[:,1]
     train = roc_auc_score(y_train,train_prob)
     val = roc_auc_score(y_val,val_prob)
-    print('train accuracy:',round(train,2),'val/test accuracy:',round(val,2))
+    print('train roc_auc:',round(train,2),'val/test roc_auc:',round(val,2))
     
 #===========================================================================================================================================================
 def annot(fpr,tpr,thr):
