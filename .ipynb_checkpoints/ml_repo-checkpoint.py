@@ -195,7 +195,7 @@ def roc_plot(model,X_train,y_train,X_val,y_val):
     plt.plot([0, 1], [0, 1], color='navy', linestyle='--')
     plt.ylabel('TPR (power)')
     plt.xlabel('FPR (alpha)')
-    plt.legend(['train','val'])
+    plt.legend(['train','val/test'])
     plt.show()
     
 #===========================================================================================================================================================
