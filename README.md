@@ -27,7 +27,7 @@ Baseline Model (Train / Validation):
 
            - Decision Tree: 0.90 / 0.77
 
-![](tree.png)
+![](images/tree.png)
 
 Secondary Models (Train / Validation): 
 
@@ -58,7 +58,7 @@ Final Model (Train / Validation / Test):
                       - Accuracy: 0.90 / 0.86 / 0.86
 
 
-![](final_model_params.png)
+![](images/final_model_params.png)
 
 ## Interpretation 
 
@@ -76,4 +76,4 @@ The determinants of the usability of a waterpump include:
 
 ### Top 10 features:
 
-![](features_final.png)
+![](images/features_final.png)
