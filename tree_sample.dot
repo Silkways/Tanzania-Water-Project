@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="water_quality_dry <= 0.5\nentropy = 1.0\nsamples = 34740\nvalue = [17397, 17343]\nclass = functional", fillcolor="#e5813901"] ;
+1 [label="quantity_other <= 0.5\nentropy = 0.99\nsamples = 30759\nvalue = [13501, 17258]\nclass = non functional", fillcolor="#399de538"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="source_type_Iringa11 <= 0.5\nentropy = 0.97\nsamples = 27684\nvalue = [10877, 16807]\nclass = non functional", fillcolor="#399de55a"] ;
+1 -> 2 ;
+3 [label="construction_year <= 1985.5\nentropy = 0.98\nsamples = 25030\nvalue = [10485, 14545]\nclass = non functional", fillcolor="#399de547"] ;
+2 -> 3 ;
+4 [label="entropy = 0.95\nsamples = 3261\nvalue = [2060, 1201]\nclass = functional", fillcolor="#e581396a"] ;
+3 -> 4 ;
+5 [label="entropy = 0.96\nsamples = 21769\nvalue = [8425, 13344]\nclass = non functional", fillcolor="#399de55e"] ;
+3 -> 5 ;
+6 [label="entropy = 0.6\nsamples = 2654\nvalue = [392, 2262]\nclass = non functional", fillcolor="#399de5d3"] ;
+2 -> 6 ;
+7 [label="gps_height <= 0.05\nentropy = 0.6\nsamples = 3075\nvalue = [2624, 451]\nclass = functional", fillcolor="#e58139d3"] ;
+1 -> 7 ;
+8 [label="entropy = 0.7\nsamples = 1522\nvalue = [1232, 290]\nclass = functional", fillcolor="#e58139c3"] ;
+7 -> 8 ;
+9 [label="entropy = 0.48\nsamples = 1553\nvalue = [1392, 161]\nclass = functional", fillcolor="#e58139e2"] ;
+7 -> 9 ;
+10 [label="management_never pay <= 0.5\nentropy = 0.15\nsamples = 3981\nvalue = [3896, 85]\nclass = functional", fillcolor="#e58139f9"] ;
+0 -> 10 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+11 [label="entropy = 0.11\nsamples = 2002\nvalue = [1973, 29]\nclass = functional", fillcolor="#e58139fb"] ;
+10 -> 11 ;
+12 [label="entropy = 0.19\nsamples = 1979\nvalue = [1923, 56]\nclass = functional", fillcolor="#e58139f8"] ;
+10 -> 12 ;
+}
