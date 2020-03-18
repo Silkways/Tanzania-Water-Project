@@ -14,6 +14,7 @@ Length of operation. We are aiming to use classification algorithms to evaluate 
 The raw dataset contains 60,000 water pumps and 41 different features. Combining feature selection and engineering we reduced the dataset to 29 features prior to binary transformation. We are using Functional / Non-Functional as our target. We made some additional small features changes to simplify the dataset detailed in the Main jupyter notebook. We used undersamping to fix class imbalance across the existing set of water pumps to avoid overfitting. Our end dataset contains 869 features after binary transformation. 
 
 Train-Test split: 80/20 
+K-fold cross validation: 5 folds / stratified random sampling
 
 ## Modeling
 
