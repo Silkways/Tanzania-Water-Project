@@ -18,7 +18,7 @@ K-fold cross validation: 5 folds / stratified random sampling
 
 ## Modeling
 
-Model Scoring measures: Accuracy & ROC_AUC
+Model Scoring measure(s): Accuracy
 Hyperparameter optimisation: GridSearch CV
 
 Baseline Model (Train / Validation):
@@ -45,7 +45,16 @@ Secondary Models (Train / Validation):
           
               - Decision Tree: 0.90 / 0.86
 
-## Final Model Selection
+## Final Model Selection & Test Performance
+
+We chose the Decision Tree with parameter optimization as our final model. 
+
+Final Model (Train / Validation / Test): 
+
+           - Decision Tree (Max depth = 40 / Min samples leaf = 20)
+                      
+                      - Accuracy: 0.90 / 0.86 / 0.86
+
 
 ![](final_model_params.png)
 ![](final_model_roc.png)
