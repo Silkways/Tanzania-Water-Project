@@ -35,9 +35,12 @@ Secondary Models (Train / Validation):
           - K-nearest-neighbors: 0.68 / 
           
           - Ensemble Methods: 
-              - Decision Tree w/ Bagging: 0.90 / 0.86
               
               - Logistic Regression w/ Bagging: 0.78 / 0.77
+              
+          - Hyperparameter optimisation: 
+          
+              - Decision Tree w/ Bagging: 0.90 / 0.86
 
 ## Selection
 
