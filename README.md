@@ -47,6 +47,7 @@ Secondary Models (Train / Validation):
 
 ## Final Model Selection
 
-
+![](final_model_params.png)
+![](final_model_roc.png)
 
 ## Interpretation 
