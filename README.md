@@ -21,12 +21,14 @@ K-fold cross validation: 5 folds / stratified random sampling
 Model Scoring measures: Accuracy & ROC_AUC
 Hyperparameter optimisation: GridSearch CV
 
-Baseline Model (Train / Validation): 
+Baseline Model (Train / Validation):
+
            - Decision Tree: 0.90 / 0.77
 
 ![](tree.png)
 
 Secondary Models (Train / Validation): 
+
           - Logistic Regression: 0.78 / 0.77 
           
           - Random Forest: 0.77 / 0.76
