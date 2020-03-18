@@ -27,14 +27,17 @@ Baseline Model (Train / Validation):
 
 Secondary Models (Train / Validation): 
           - Logistic Regression: 0.78 / 0.77 
+          
           - Random Forest: 0.77 / 0.76
+          
           - Support Vector Machines: 0.50 / 0.49
+          
           - K-nearest-neighbors: 0.68 / 
+          
           - Ensemble Methods: 
               - Decision Tree w/ Bagging: 0.90 / 0.86
+              
               - Logistic Regression w/ Bagging: 0.78 / 0.77
-
-
 
 ## Selection
 
