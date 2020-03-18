@@ -71,6 +71,6 @@ The features below are the main driver of the model outcome. The determinants of
           
           - length of operation
 
-Top 10 features
+### Top 10 features:
 
 ![](features_final.png)
