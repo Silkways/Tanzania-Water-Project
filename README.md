@@ -23,7 +23,7 @@ Model Scoring measures: Accuracy & ROC_AUC
 Baseline Model: Decision Tree 
 Secondary Models: Logistic Regression / Random Forest / K-nearest-neighbors / Support Vector Machines
 
-![](tree_sample.dot)
+![](tree.png)
 
 ## Selection
 
