@@ -61,7 +61,9 @@ Final Model (Train / Validation / Test):
 
 ## Interpretation 
 
-The features below are the main driver of the model outcome. The determinants of the usability of a waterpump include:
+The model we have chosen should enable us to predict and influence the outcome of future water pumps. The features below are the main driver of the model outcome. We recommend the government of Tanzania to use the factors below in their discussions with third parties who are building pumps and challenge them on their assessment of these features. This will improve the future usability of exiting and new pumps and insure their usability over a long period. 
+
+The determinants of the usability of a waterpump include:
           
           - water quality
 
