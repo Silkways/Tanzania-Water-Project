@@ -19,6 +19,7 @@ K-fold cross validation: 5 folds / stratified random sampling
 ## Modeling
 
 Model Scoring measures: Accuracy & ROC_AUC
+Hyperparameter optimisation: GridSearch CV
 
 Baseline Model (Train / Validation): 
            - Decision Tree: 0.90 / 0.77
