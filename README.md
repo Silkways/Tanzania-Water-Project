@@ -18,6 +18,11 @@ K-fold cross validation: 5 folds / stratified random sampling
 
 ## Modeling
 
+Model Scoring measures: Accuracy & ROC_AUC
+
+Baseline Model: Decision Tree 
+Secondary Models: Logistic Regression / Random Forest / K-nearest-neighbors / Support Vector Machines
+
 ![](tree.png)
 
 ## Selection
