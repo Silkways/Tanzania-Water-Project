@@ -1,4 +1,4 @@
-# Water Enhancment Project
+# Water Enhancement Project
 
 ## Premise: 
 
