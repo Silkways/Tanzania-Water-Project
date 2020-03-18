@@ -41,8 +41,10 @@ Secondary Models (Train / Validation):
               
           - Hyperparameter optimisation: 
           
-              - Decision Tree w/ Bagging: 0.90 / 0.86
+              - Decision Tree: 0.90 / 0.86
 
-## Selection
+## Final Model Selection
+
+
 
 ## Interpretation 
