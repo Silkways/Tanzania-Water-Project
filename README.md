@@ -35,7 +35,7 @@ Secondary Models (Train / Validation):
           
           - Support Vector Machines: 0.50 / 0.49
           
-          - K-nearest-neighbors: 0.68 / 
+          - K-nearest-neighbors: 0.68 / 0.69
           
           - Ensemble Methods: 
               
