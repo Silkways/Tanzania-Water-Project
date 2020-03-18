@@ -63,7 +63,7 @@ Final Model (Train / Validation / Test):
 
 The features below are the main driver of the model outcome. The determinants of the usability of a waterpump include:
           
-          - source quality
+          - water quality
 
           - quantity of water available
           
