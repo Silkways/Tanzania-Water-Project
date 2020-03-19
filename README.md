@@ -78,10 +78,13 @@ The determinants of the usability of a waterpump include:
 
 We selected a threshold for our stakeholders using the following metrics (a positive being a functional water pump and a negative being a non-functional water pump):
 
-cfp = 100
-ctn = 50
-cfn = 0
-ctp = -50
+            - cfp = 100
+
+           - ctn = 50
+
+           - cfn = 0
+
+           - ctp = -50
 
 The rational for this was that a true positive, a functional water pump correctly identified would have the lowest score, a true negative would have a cost of repairing the pump associated with it. The most costly would be a false positive, a non functional water pump classified as functional, as this would have health and wellness implications for the population dependent upon it, as well as any repair costs. The cost of a false negative was set to 0 as a benchmark.
 
