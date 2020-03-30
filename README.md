@@ -95,4 +95,4 @@ The rational for this was that a true positive, a functional water pump correctl
 
 ### Recommendations
 
-Based on the model results and feature weights we recommend that the minister of water and irigation deploy resources to conduct additional due diligence on water sources where wells are being installed. In addition, 
+Based on the model results and feature weights we recommend that the minister of water and irigation deploy resources to conduct additional due diligence on water sources where wells are being installed. In addition, there is strong evidence of lack of functionality for wells installed at higher levels. We recommend adding using government oversight to make sure wells are installed at lower levels where possible. Finally, 
