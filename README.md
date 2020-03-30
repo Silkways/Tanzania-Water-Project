@@ -91,3 +91,8 @@ The rational for this was that a true positive, a functional water pump correctl
 ### Top 10 features:
 
 ![](images/features_final.png)
+
+
+### Recommendations
+
+Based on the model results and feature weights we recommend that the minister of water and irigation deploy resources to conduct 
