@@ -78,7 +78,7 @@ The determinants of the usability of a waterpump include:
 
 We selected a threshold for our stakeholders using the following metrics (a positive being a functional water pump and a negative being a non-functional water pump):
 
-            - cfp = 100
+           - cfp = 100
 
            - ctn = 50
 
